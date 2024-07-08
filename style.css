@@ -7,127 +7,55 @@
 
 }
 
-body, html {
-  height: 100%;
-  margin: 0;
-  background-color: black;
+body{
+  margin: auto;
+  padding: 20px;
+  background-color: #F6F6F6;
+    max-width: 550px;
+}
+
+#bio{
+   font-family: "cl";
   font-weight: 100;
   font-size: 20px;
-}
-
-#bg {
-  background-image: "";
-  height: 100%; 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-    position: fixed;
-    left: 0;
-    top: 0;
-    z-index: 1;
-    width: 100%;
-    padding: 20px;
-    color: "";
-    font-family: "cl";
-
-}
-
-#text {
-    position: fixed;
-    left: 0;
-    top: 0;
-    z-index: 1;
-    padding: 20px;
-    color: #ffffff;
-    font-family: "cl";
-    font-size: 20px;
-}
-
-#aboutBtn {
-    position: fixed;
-    z-index: 4;
-    margin-top: 16px;
-    right: 20px;
-    font-family: "cl";
-    line-height: 30px;  
-    background: none;
-    border: none;
-    font-size: 20px;
-    color: "white";
-}
-
-button:focus{
-    outline: none;
-}
-
-#about {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    z-index: 3;
-    background-color: #000;
-    padding-top: 17px;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: #EBFF00;
-    font-family: "cl";
+   color: #black;
     letter-spacing: 0.3px;
     line-height: 28px;
-    display: none;
-    font-size: 20px;
 }
 
-#bio {
-    position: absolute;
-    bottom: 40px;
-    width: 340px;
-    
+#contact{
+   font-family: "cl";
+  font-weight: 100;
+  font-size: 20px;
+    letter-spacing: 0.3px;
+    line-height: 28px;
+    margin-top: 25px;
+}
+
+#pics{
+  margin-top: 35px;
 }
 
 a { 
 color: inherit;
 text-decoration: none;
 transition: color 0.5s;
+border-bottom: solid #757575 1.5px;
+
 }
 
-/*
-#bg a {
-    text-decoration: underline;
+"contact"{
+
 }
-*/
 
 a:hover {
     color: #ff2a00;
+    border-bottom: solid #ff2a00 1.5px;
 }
 
-
-.words{
-   margin-left: 200px
-}
-
-#next{
-    position: fixed;
-    right : 0;
-    z-index: 2; 
-    height: 100%;
-    width: 50%;
-    background-color: transparent;
-    border: none;
-}
-
-#prev{
-    position: fixed;
-    left: 0;
-    z-index: 2; 
-    height: 100%;
-    width: 50%;
-    background-color: transparent;
-    border: none;
-}
-
-@media screen and (max-width: 850px) {
-
-    #bio {
-    }
- 
+img {
+  width: 100%;
+  margin-bottom: 25px;
+  object-fit: contain;
+  border-radius: 2px;
 }
