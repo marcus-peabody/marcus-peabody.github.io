@@ -50,7 +50,7 @@ text-align: center;
 }
 
 #pics{
-  margin-top: 30px;
+  margin-top: 70px;
 }
 
 figure{
@@ -83,8 +83,8 @@ footer{
   font-weight: 100;
   line-height: 28px;
   text-transform: uppercase;
-  padding-top: 10px;
-  margin-bottom: 25px;
+  padding-top: 15px;
+  margin-bottom: 30px;
 }
 
 a { 
@@ -98,4 +98,10 @@ a {
 a:hover {
   color: #ff2a00;
   border-bottom: solid #ff2a00 1.5px;
+}
+
+#icon {
+  width: 20px; 
+  height: auto;
+  display: inline;
 }
