@@ -3,8 +3,17 @@
    <link rel="stylesheet" href="style.css">
    <title>Marcus Peabody</title>
    <link rel="icon" type="image/x-icon" href="Icons-02.png">
-   <meta name="”description”" content="Marcus Peabody is the Creative Director at Guardian US">
+   <meta name="description" content="Marcus Peabody is the Creative Director at Guardian US">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!-- Google tag (gtag.js) -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=G-0WQX51FLX5"></script>
+   <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-0WQX51FLX5');
+   </script>
 </head>
 
 
@@ -81,7 +90,12 @@
 
 
     <footer>
-      <a href="https://docs.google.com/document/d/1dleyOOwQQylOdbtqP9NN_1HDwQ_EBMIXY3mNGQ6Up-o/edit?usp=sharing">Résumé</a>  |  <a href="https://docs.google.com/presentation/d/1YidVFMN--1DZjhvsgCKWMVzZWM3PyL67JTVcJ2XJPmA/edit?usp=sharing" target="_blank">See More Work</a>  
+      <a href="https://docs.google.com/document/d/1dleyOOwQQylOdbtqP9NN_1HDwQ_EBMIXY3mNGQ6Up-o/edit?usp=sharing"
+         onclick="gtag('event', 'resume_click', {'event_category': 'footer_link', 'event_label': 'Resume'});">Résumé</a>
+      &nbsp;|&nbsp;
+      <a href="https://docs.google.com/presentation/d/1YidVFMN--1DZjhvsgCKWMVzZWM3PyL67JTVcJ2XJPmA/edit?usp=sharing" target="_blank"
+         onclick="gtag('event', 'see_more_work_click', {'event_category': 'footer_link', 'event_label': 'See More Work'});">See More Work</a>
    </footer>
 
-   </html>
+</body>
+</html>
